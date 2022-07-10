@@ -1,3 +1,5 @@
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
 
 /**
@@ -7,14 +9,13 @@
  */
 int main(void)
 {
-char c = a;
 
-while (c <= z)
+int x = A;
+while (x <= Z)
 {
-putchar(c);
-c++;
+x = tolower(x);
+putchar(x);
+x++;
 }
-putchar(n);
-
 return (0);
 }
