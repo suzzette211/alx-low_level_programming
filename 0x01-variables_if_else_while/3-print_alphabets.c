@@ -1,26 +1,25 @@
 #include <stdio.h>
-
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
+*main - Entry point
+*
+*Return: Always 0 (success)
+*/
+
 int main(void)
 {
-char c = a;
-char C = A;
+char x = a;
+char X = A;
 
-while (c <= z)
+while (x <= z)
 {
-putchar(c);
-c++;
+putchar(x);
+x++;
 }
-while (C <= Z)
+while (X <= Z)
 {
-putchar(C);
-C++;
+putchar(X);
+X++;
 }
 putchar(n);
-
 return (0);
 }
