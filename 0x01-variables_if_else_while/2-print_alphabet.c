@@ -10,12 +10,12 @@
 int main(void)
 {
 
-int x = A;
-while (x <= Z)
+char c = a;
+while (c <= z)
 {
-x = tolower(x);
-putchar(x);
-x++;
+putchar(c);
+c++;
 }
+putchar(n);
 return (0);
 }
