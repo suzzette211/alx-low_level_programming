@@ -1,25 +1,15 @@
 #include <stdio.h>
-/**
-*main - Entry point
-*
-*Return: Always 0 (success)
-*/
+void main()
 
-int main(void)
 {
-char x = a;
-char X = A;
 
-while (x <= z)
-{
-putchar(x);
-x++;
-}
-while (X <= Z)
-{
-putchar(X);
-X++;
-}
-putchar(n);
-return (0);
+int ch;
+for (ch= ‘A’; ch<= ‘Z’; ch++)
+putchar(ch);
+putchar (‘\n’ ) ;
+/* print lowercase letters */
+for (ch= ‘a’; ch<= ‘z’; ch++)
+putchar(ch);
+putchar (‘\n’);
+getch();
 }
