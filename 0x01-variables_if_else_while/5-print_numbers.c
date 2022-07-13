@@ -7,12 +7,12 @@
  */
 int main(void)
 {
-char c = 'a';
+int n = 0;
 
-while (c <= 'z')
+while (n < 10)
 {
-putchar(c);
-c++;
+printf(%d, n);
+n++;
 }
 putchar('\n');
 

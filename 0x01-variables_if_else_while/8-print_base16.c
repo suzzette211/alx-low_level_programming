@@ -7,9 +7,15 @@
  */
 int main(void)
 {
+int d = 48;
 char c = 'a';
 
-while (c <= 'z')
+while (d < 58)
+{
+putchar(d);
+d++;
+}
+while (c <= 'f')
 {
 putchar(c);
 c++;
